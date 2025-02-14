@@ -1,0 +1,197 @@
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 14px;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-dark);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.skillImageContainer img {
+  width: 60px;
+}
+
+.skill p {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+.history {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.historyItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(12, 12, 12, 0.6);
+  padding: 24px;
+  border-radius: 10px;
+  border-left: 3px solid var(--color-orange);
+}
+
+.historyItem::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+}
+
+.historyDates {
+  color: var(--color-orange);
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 25px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+
+  .historyItemDetails p {
+    font-size: 15px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .skills {
+    gap: 10px;
+  }
+
+  .skillImageContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skillImageContainer img {
+    width: 50px;
+  }
+
+  .skill p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .skillImageContainer {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skillImageContainer img {
+    width: 35px;
+  }
+
+  .skill p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .historyItemDetails p {
+    font-size: 14px;
+  }
+
+  .historyItemDetails ul {
+    font-size: 14px;
+    margin-left: 0;
+  }
+}

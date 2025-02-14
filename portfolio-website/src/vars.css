@@ -1,0 +1,11 @@
+:root {
+  --color-text: #fff;
+  --color-orange: #ff8000;
+  --color-orange-hover: #bf6001;
+  --color-primary: #1e90ff;
+  --color-secondary: #0077b6;
+  --color-dark: #023e8a;
+  --color-bg: #03045e;
+
+  --font-roboto: "Roboto";
+}
