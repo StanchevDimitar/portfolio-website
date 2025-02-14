@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of your application files
-COPY . .
+COPY portfolio-website .
 
 # Expose the Vite default port
 EXPOSE 5173
