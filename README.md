@@ -1,8 +1,11 @@
-# React + Vite
+This is a personal portfolio website built using React. It showcases projects, skills, and experience in a visually appealing and interactive way.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Features
+- Responsive design for mobile and desktop
+- Interactive UI with animations
+- Project showcase with descriptions and links
+- Contact details for easy communication
 
-Currently, two official plugins are available:
+You can visit it here - https://dimitar-stanchev.vercel.app/
+If you have any questions, feel free to reach out!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
