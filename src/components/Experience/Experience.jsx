@@ -87,7 +87,7 @@ const history = [
   {
     organisation: "Comsystem",
     role: "Full-stack Developer",
-    startDate: "Mar 2024",
+    startDate: "Jan 2024",
     endDate: "Present",
     experiences: [
       "Developing an ERP system from the ground up. ",
@@ -98,7 +98,7 @@ const history = [
   },
   {
     organisation: "Software University (SoftUni)",
-    role: "Intern",
+    role: "Course Assistant",
     startDate: "Nov 2023",
     endDate: "Nov 2024",
     experiences: [

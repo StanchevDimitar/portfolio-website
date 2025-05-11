@@ -13,7 +13,7 @@ export const Hero = () => {
           fast decision-making in architecture design, I’m always focused on
           staying ahead in the field.
         </p>
-        <a href="mailto:mitko0stan4ev@gmail.com" className={styles.contactBtn}>
+        <a href="mailto:mitko00stanchev@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
